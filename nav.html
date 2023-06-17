@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Bungee+Inline&family=Courgette&family=Merienda:wght@600&family=Monoton&family=Petit+Formal+Script&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="1.css" />
+    <script src="1.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+       
+        
+        <a class="navbar-brand" href="#"
+          ><h1 style="color: burlywood; font-family: 'Bruno Ace SC', cursive;"> Apex Adventure</h1></a
+        >
+        <button
+          class="navbar-toggler bg-danger"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                style="color: burlywood"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: burlywood">Passes&offer</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="color: burlywood"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Restaurent</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Shooping</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <div class="d-flex" role="search">
+            <button class="btn btn-warning me-2" type="submit">Sign In</button>
+            <button class="btn  btn-warning" type="submit">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+   
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+   
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="images/bungee.webp" class="d-block w-100 img-item" alt="...">
+          <div class="carousel-caption d-none d-md-block ">
+            
+            <h1 style="font-family: 'Bruno Ace SC', cursive;">Unlimited Adventure with
+              50+ Adrenaline Pumping Activities</h1>
+          </div>
+        </div>
+        
+      </div>
+     
+    </div>
+  
+<ul class="nav nav-pills bg-dark" style="border: 2px; border-style: groove; border-color:black;">
+  <li class="nav-item">
+    <a class="nav-link active " aria-current="page" href="#" style="background-color:goldenrod;color: white;" >Activities</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" style="color: white;">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" style="color: white;">discover</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled">Disabled</a>
+  </li>
+</ul>
+<nav class="navbar navbar-expand-lg" style="background-color:black">
+  
+    
+    <div class="collapse navbar-collapse" id="nav" style="justify-content: space-between; display: flex;" >
+<h3><button class="btn btn-light" >FILTER By:</button></h3>
+<h3><button class="btn btn-light" onclick="fun3()">daypass</button></h3>
+<h3><button class="btn btn-light"onclick="fun2()">jumbopass</button></h3>
+<h3><button class="btn btn-light"onclick="fun1()">kids friendly</button></h3>
+
+<h6><select style="text-align: center;"><option value=""><button >thriller</button></option><option value=""><a  onclick="fun2()">FILTER B</a></option></select></h6>
+</div>
+<button class="navbar-toggler" data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon"></span></button>
+</nav>
+<div id="filter" class="bg-dark">
+<div class="row  justify-content-center mb-4" >
+  <div class="col-sm-12 col-md-9 ">
+<div class="row ">
+  <div class=" card col-sm-4 col-md-6 card border-warning ">
+    <img src="https://www.dellaadventure.com/uploads/5066chess-inside-img.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">1 Thriller Factor</h5>
+    <h1 class="card-text">CHESS</h1>
+    <a href="#" class="btn btn-warning">View activity</a>
+  </div>
+  </div>
+  <div class=" card col-sm-4 col-md-6 card border-warning" >
+    <img src="https://www.dellaadventure.com/uploads/6839carrom-outside-img.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">1 Thriller Factor</h5>
+      <h1 class="card-text">CARROM</h1>
+      <a href="#" class="btn btn-warning">View activity</a>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="row  justify-content-center  mb-4 " >
+  <div class="col-sm-12 col-md-9 ">
+<div class="row ">
+  <div class=" card col-sm-4 col-md-6 card border-warning ">
+    <img src="https://www.dellaadventure.com/uploads/250747.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">1 Thriller Factor</h5>
+    <h1 class="card-text">VIRTUAL RACING CARS</h1>
+    <a href="#" class="btn btn-warning">View activity</a>
+  </div>
+  </div>
+  <div class=" card col-sm-4 col-md-6 card border-warning" >
+    <img src="https://www.dellaadventure.com/uploads/160048.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">1 Thriller Factor</h5>
+      <h1 class="card-text">VIRTUAL GAMES</h1>
+      <a href="#" class="btn btn-warning">View activity</a>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="row  justify-content-center  mb-4 " >
+  <div class="col-sm-12 col-md-9 ">
+<div class="row ">
+  <div class=" card col-sm-4 col-md-6 card border-warning">
+    <img src="https://www.dellaadventure.com/uploads/5980longest-flying-fox-outside-img.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-danger">7 Thriller Factor</h5>
+    <h1 class="card-text">LONGEST FLYING FOX</h1>
+    <a href="#" class="btn btn-warning">View activity</a>
+  </div>
+  </div>
+  <div class=" card col-sm-4 col-md-6 card border-warning" >
+    <img src="https://www.dellaadventure.com/uploads/2414Circadian%20Cycle1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-danger">7 Thriller Factore</h5>
+      <h1 class="card-text">Circadian Cycle</h1>
+      <a href="#" class="btn btn-warning"></a>View activity</a>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="row  justify-content-center mb-4 " >
+  <div class="col-sm-12 col-md-9 ">
+<div class="row ">
+  <div class=" card col-sm-4 col-md-6 card border-warning ">
+    <img src="https://www.dellaadventure.com/uploads/2669rappelling-outside-img.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-danger">8 Thriller Factore</h5>
+    <h1 class="card-text">RAPPELING</h1>
+    <a href="#" class="btn btn-warning">View activity</a>
+  </div>
+  </div>
+  <div class=" card col-sm-4 col-md-6 card border-warning" >
+    <img src="https://www.dellaadventure.com/uploads/42859365ATV%20200cc.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title btn-warning"> 8 Thriller Factoree</h5>
+      <h1 class="card-text">ATV</h1>
+      <a href="#" class="btn btn-warning">View activity</a>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="row  justify-content-center mb-4 " >
+  <div class="col-sm-12 col-md-9 ">
+<div class="row ">
+  <div class=" card col-sm-4 col-md-6 card border-warning">
+    <img src="https://www.dellaadventure.com/uploads/8753shooting-range-outside-img.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">2 thriller factor</h5>
+    <h1 class="card-text">SHOOTING RANGE</h1>
+    <a href="#" class="btn btn-warning">View activity</a>
+  </div>
+  </div>
+  <div class=" card col-sm-4 col-md-6 card border-warning" >
+    <img src="https://www.dellaadventure.com/uploads/8604Bungee-trampoline.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">2 thriller factor</h5>
+      <h1 class="card-text">BUNGEE TRAMPOLINE</h1>
+      <a href="#" class="btn btn-warning">View activity</a>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="row  justify-content-center mb-4r " >
+  <div class="col-sm-12 col-md-9 ">
+<div class="row">
+  <div class=" card col-sm-4 col-md-6 card border-warning ">
+    <img src="https://www.dellaadventure.com/uploads/8202rocket-ejector-outside-img.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">2 thriller factor</h5>
+    <h1 class="card-text">BUNGEE TRAMPOLINE</h1>
+    <a href="#" class="btn btn-warning">View activity</a>
+  </div>
+  </div>
+  <div class="card col-sm-4 col-md-6 card border-warning" >
+    <img src="https://www.dellaadventure.com/uploads/4499High%20Rope%20Challenge.JPG" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <h1 class="card-text">BUNGEE TRAMPOLINE</h1>
+      <a href="#" class="btn btn-warning">View activity</a>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+  </body>
+</html>
